@@ -17,7 +17,7 @@ try:
 
     for j in range(10):
         # Получение информации о товаре из базы данных
-        cursor.execute(f"SELECT  *  FROM products WHERE product_id = {j} AND category_id = 1")
+        cursor.execute(f"SELECT  *  FROM products WHERE product_id = {j} AND category_id = 2")
         result = cursor.fetchone()
         if result:
             product = dict(zip([i[0] for i in cursor.description], result))
