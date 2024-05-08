@@ -1,14 +1,11 @@
+#vbystrov 2024
 from jinja2 import Template
 import psycopg2
 
 
-"""print('Напишите адрес сервера и порт. (через пробел)')
-ip_add = input().split()
-print('Напишите имя пользователя и пароль для подключения к БД. (через пробел)')
-name = input().split()"""
-
 def click_btn():
     print('123')
+
 
 try:
     # Подключение к базе данных
