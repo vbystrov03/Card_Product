@@ -1,11 +1,6 @@
-#vbystrov 2024
+# vbystrov 2024
 from jinja2 import Template
 import psycopg2
-
-
-def click_btn():
-    print('123')
-
 
 try:
     # Подключение к базе данных
